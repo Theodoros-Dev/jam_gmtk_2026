@@ -11,13 +11,15 @@ config_version=5
 [application]
 
 config/name="jam_gmtk_2026"
+run/main_scene="uid://ck568m7m7ihwc"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=960
+window/size/viewport_height=540
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
 
 [physics]
 
@@ -26,3 +28,4 @@ window/stretch/aspect="expand"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
